@@ -9,13 +9,8 @@ void hanoi(int n,int src,int aux,int dst) {
         hanoi(n-1, src, dst, aux);
         cout <<src<<" "<<dst<<"\n";
         hanoi(n-1, aux, src, dst);
-   }
-
-       
+   }      
 }
-        
-
-
 int main(){
     int n;cin>>n;
     int src=1,aux=2, dst=3;
