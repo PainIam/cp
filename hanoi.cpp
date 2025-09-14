@@ -6,7 +6,9 @@ void hanoi(int n,int src,int aux,int dst) {
     cout<<src<<" "<<dst<<"\n";
     return;
    } else {
-
+        hanoi(n-1, src, dst, aux);
+        cout <<src<<" "<<dst<<"\n";
+        hanoi(n-1, aux, src, dst);
    }
 
        
