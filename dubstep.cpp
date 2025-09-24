@@ -13,9 +13,13 @@ int main() {
             }
             pos+=3;
         }
+        
+        if(pos<s.size())
+            words.push_back(s.substr(pos));
 
         for(int i=0; i<words.size(); i++) {
             if(i) cout<< " ";
-            cout << words[i]<<"\n";
+            cout << words[i];
         }
+        cout << "\n";
 }
