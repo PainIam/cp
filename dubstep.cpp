@@ -11,7 +11,7 @@ int main() {
             if(found>pos) {
                 words.push_back(s.substr(pos, found-pos));
             }
-            pos+=found+3;
+            pos=found+3;
         }
         
         if(pos<s.size())
