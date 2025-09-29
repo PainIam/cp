@@ -17,7 +17,6 @@ int main() {
              counter = 1;
          }
     }
-
     cout << "NO\n";
     return 0;
 }
