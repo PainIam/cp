@@ -26,7 +26,7 @@ int main() {
         }
 
         if (tmp!=1 || a>b) {
-            cout << "-1\n";
+            v.pb(-1);
         } else {
             int x = (b-a);
             count = x+b;
